@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 960px;
+    height: auto;
+    padding: 20 px;
+    background-color: bisque;
+    clear: both;
+}
+
+img {
+ width: 264px;
+ height: 167px;
+ align-content: center;   
+}
