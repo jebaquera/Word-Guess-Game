@@ -1,17 +1,71 @@
 body {
     margin: 0;
+    background-color: papayawhip;
 }
+ h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bold;
+    align-content: left;
+    padding-left: 110px;
+    padding-top: 25px;
+ }
 
 .container {
     width: 960px;
     height: auto;
     padding: 20 px;
-    background-color: bisque;
+    background-color: white;
     clear: both;
+    margin-top: 30px;
 }
 
 img {
- width: 264px;
- height: 167px;
- align-content: center;   
+ width: 95%;
+ height: 200px;
+ align-content: left;
+ padding-left: 10px;
+ padding-bottom: 10px;   
+}
+
+#TR,
+#BR {
+    height: 200px;
+}
+
+#MR {
+    height: 330px;
+}
+
+#TRmc {
+    box-align: center;
+}
+
+#MRmc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    align-content: left;
+    padding: 10px 40px 0px 75px;
+    background-color: aliceblue;
+}
+
+#MRmc img {
+    width: 100%;
+    border: none;
+    opacity: 0.8;
+}
+
+#TRrc {
+    width: auto
+}
+
+#BR {
+    margin-top: 20px;
+}
+
+#TR {
+    padding-top: 10px;
 }
