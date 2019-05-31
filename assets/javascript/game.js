@@ -1,5 +1,3 @@
-// Congratulate the player on guessing the word
-
 // HTML selectors
 var secretWord = document.getElementById('secret-word');
 var lettersGuessed = document.getElementById('letters-guessed');
@@ -67,6 +65,15 @@ while (remainingLetters > 0) {
 alert(answerArray.join(" "));
 alert("You're a True Texan! The answer was " + word);
 
+// Need to add an alert if user has not provided the correct answer within the allotted guesses.
+
+
+
+
+
+
+
+// ---------------------
 
 // Pre-pseudocode exercise
 // 1. Pick a random word.
@@ -76,23 +83,4 @@ alert("You're a True Texan! The answer was " + word);
 // 5. Keep track of letters the player has guessed.
 // 6. Show the player their progress.
 // 7. Finish when the player has guessed the word.
-
-// Pseudocode Design for Word Game
-// Pick a random word
-
-// While the word has not been guessed {
-//    Show the player their current progress
-//    Get a guess from the player
-
-//    If the player wants to quit the game {
-//      Quit the game
-//    }
-//    Else If the guess is not a single letter {
-//      Tell the player to pick a single letter
-//    }
-//    Else {
-//      If the guess is in the word {
-//        Update the player's progress with the guess
-//      }
-//    }
-// }
+// 8. Or Finish when the player is out of guesses and count as a Loss.
